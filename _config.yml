@@ -140,6 +140,6 @@ theme: aircloud
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
  type: git
- repo: git@github.com:robinicon/thinkin.github.io.git
+ repo: git@github.com:robinicon/robinicon.github.io.git
  branch: page
 
