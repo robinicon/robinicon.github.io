@@ -267,6 +267,9 @@ abbrlink:
   rep: dec
 ~~~
 
+3) 发布插件
+
+
 4. 任务管理
 
 - issues
