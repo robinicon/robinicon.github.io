@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jim - 学开发
+title: Jim - 学游戏开发
 subtitle: 每天进步一点点...
 author: Jim
 language: zh
@@ -25,7 +25,7 @@ permalink_defaults:
 
 # Site settings
 # 网站综合内容设置：
-SEOTitle: Jim - 学开发
+SEOTitle: Jim - 学游戏开发
 email: onlythen@yeah.net
 description: "Jim"
 keyword: "gamejelly.cn"
@@ -46,21 +46,21 @@ sidebar-avatar: img/logo.png      # use absolute URL, seeing it's used in both `
 
 # Friends
 # 友情链接
-friends: [
-    {
-        title: "10000H",
-        href: "https://www.10000h.top"
-    },{
-        title: "Xiaotao's Page",
-        href: "https://niexiaotao.com"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    },{
-        title: "浙ICP备16035324号-1",
-        href: "https://beian.miit.gov.cn/"
-    }
-]
+# friends: [
+#     {
+#         title: "10000H",
+#         href: "https://www.10000h.top"
+#     },{
+#         title: "Xiaotao's Page",
+#         href: "https://niexiaotao.com"
+#     },{
+#         title: "It helps SEO",
+#         href: "#"
+#     },{
+#         title: "浙ICP备16035324号-1",
+#         href: "https://beian.miit.gov.cn/"
+#     }
+# ]
 
 #comment:
 #  type: gitment
@@ -73,9 +73,9 @@ comment:
    type: disqus
    script: 'https://airclouds-blog.disqus.com/embed.js'
 
-donate:
-  img: img/donate.jpg
-  content: 感谢鼓励
+# donate:
+#   img: img/donate.jpg
+#   content: 感谢鼓励
 
 # The following content is not recommended to modify
 # 搜索数据文件路径设置，不建议改动：
@@ -138,8 +138,8 @@ theme: aircloud
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-#deploy:
-#  type: git
-#  repo: your repo url
-#  branch: master
+deploy:
+ type: git
+ repo: git@github.com:robinicon/thinkin.io.git
+ branch: page
 
