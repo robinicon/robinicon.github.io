@@ -267,8 +267,10 @@ abbrlink:
   rep: dec
 ~~~
 
-3) 发布插件
-
+3) 发布插件 hexo-deployer-git
+~~~sh
+npm install hexo-deployer-git --save
+~~~
 
 4. 任务管理
 
